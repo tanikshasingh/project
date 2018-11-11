@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS Group-6_database.bookings (
+CREATE TABLE IF NOT EXISTS Group6_database.bookings (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(20) null,
 email VARCHAR(20) null,
