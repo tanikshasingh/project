@@ -14,6 +14,6 @@ class Enquiry_model extends CI_Model {
 	        'issues' => $this->input->post('issues')
 	    );
 
-	    return $this->db->insert('hospital_enquiry', $data);
+	    return $this->db->insert('bookings', $data);
 	}
 }
