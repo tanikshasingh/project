@@ -6,4 +6,4 @@ email VARCHAR(20) null,
 mobile VARCHAR(10) null,
 issue VARCHAR(50) null,
 ) 
-ENGINE=InnoDB;
+ENGINE = InnoDB;
