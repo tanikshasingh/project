@@ -643,7 +643,17 @@ ul.password{
 <body>
 
 <div id="container">
-			
+	<h1>&nbsp;</h1>
+
+	<div id="body">
+		<div id="form_container">
+		
+		<h1>&nbsp;</h1>
+		<form id="form_34805" class="appnitro" method="post">
+					<div class="form_description">
+			<h2>Submit Enquiry</h2>
+
+		</div>
 				<li>
 					<label class="title" for="name">Name</label>
 					<div>
@@ -682,6 +692,7 @@ ul.password{
 				    
 					<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit">
 				</li>
+		</div>	
 			
 </div>
 
