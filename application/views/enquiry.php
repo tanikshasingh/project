@@ -67,8 +67,9 @@ form.appnitro
 /**** Logo Section  *****/
 h
 {
+	color:#FFFFFF;
 	clear:center;
-    	font-size:200%;
+    	font-size:250%;
     	font-weight:normal;
     	margin:0pt 0pt 3px;
 }
