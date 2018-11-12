@@ -654,6 +654,30 @@ ul.password{
 			<h2>Submit Enquiry</h2>
 
 		</div>
+	<div class="row">
+		<p>Thank you for using our services.</p>
+	</div>
+	<div class="row">
+		<table class="table">
+			<tr>
+				<td><em>Name</em></td>
+				<td><?php echo $name ?></td>
+			</tr>
+			<tr>
+				<td><em>email</em></td>
+				<td><?php echo $email ?></td>
+			</tr>
+			<tr>
+				<td><em>mobile</em></td>
+				<td><?php echo $mobile ?></td>
+			</tr>
+			<tr>
+				<td><em>issues</em></td>
+				<td><?php echo $issues ?></td>
+			</tr>
+		</table>
+	</div>
+</div>
 				<li>
 					<label class="title" for="name">Name</label>
 					<div>
