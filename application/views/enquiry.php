@@ -643,23 +643,6 @@ ul.password{
 <body>
 
 <div id="container">
-	<h1>&nbsp;</h1>
-
-	<div id="body">
-		<div id="form_container">
-		
-		<h1>&nbsp;</h1>
-		<form id="form_34805" class="appnitro" method="post" action="http://localhost/hospital/enquiry">
-					<div class="form_description">
-			<h2>Submit Enquiry</h2>
-
-		</div>						
-			<ul>
-				<?php if($this->session->flashdata('msg')): ?>
-				<li>
-				    <label class="success"><?php echo $this->session->flashdata('msg'); ?></label>
-				</li>
-				<?php endif; ?>
 			
 				<li>
 					<label class="title" for="name">Name</label>
@@ -699,13 +682,7 @@ ul.password{
 				    
 					<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit">
 				</li>
-			</ul>
-		</form>	
-		
-	</div>
-	</div>
-
-	
+			
 </div>
 
 </body>
