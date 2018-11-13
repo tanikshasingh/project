@@ -660,7 +660,7 @@ ul.password{
 		<div id="form_container">
 		
 		<h1>&nbsp;</h1>
-		<form id="form_34805" class="appnitro" method="post" action="http://localhost/hospital/enquiry">
+		<form id="form_34805" class="appnitro" method="post" action="http://192.168.33.20/enquiry">
 					<div class="form_description">
 			<h2>Submit Enquiry</h2>
 
