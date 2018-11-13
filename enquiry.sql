@@ -4,5 +4,5 @@ name VARCHAR(20) null,
 email VARCHAR(20) null,
 mobile VARCHAR(10) null,
 issues text null,
-created_at timestamp
+ts timestamp
 )ENGINE=innodb;
