@@ -65,6 +65,14 @@ form.appnitro
 }
 
 /**** Logo Section  *****/
+h
+{
+	color:#FFFFFF;
+	clear:center;
+    	font-size:250%;
+    	font-weight:normal;
+    	margin:0pt 0pt 3px;
+}
 h1
 {
 	background-color:#6699CC;
@@ -644,40 +652,26 @@ ul.password{
 
 <div id="container">
 	<h1>&nbsp;</h1>
+	<div class="row">
+		<h>ONLINE MEDICAL ASSISTANCE</h>
+	</div>
 
 	<div id="body">
 		<div id="form_container">
 		
 		<h1>&nbsp;</h1>
-		<form id="form_34805" class="appnitro" method="post">
+		<form id="form_34805" class="appnitro" method="post" action="http://192.168.33.20/enquiry">
 					<div class="form_description">
 			<h2>Submit Enquiry</h2>
 
-		</div>
-	<div class="row">
-		<p>Thank you for using our services.</p>
-	</div>
-	<div class="row">
-		<table class="table">
-			<tr>
-				<td><em>Name</em></td>
-				<td><?php echo $name ?></td>
-			</tr>
-			<tr>
-				<td><em>email</em></td>
-				<td><?php echo $email ?></td>
-			</tr>
-			<tr>
-				<td><em>mobile</em></td>
-				<td><?php echo $mobile ?></td>
-			</tr>
-			<tr>
-				<td><em>issues</em></td>
-				<td><?php echo $issues ?></td>
-			</tr>
-		</table>
-	</div>
-</div>
+		</div>						
+			<ul>
+				<?php if($this->session->flashdata('msg')): ?>
+				<li>
+				    <label class="success"><?php echo $this->session->flashdata('msg'); ?></label>
+				</li>
+				<?php endif; ?>
+			
 				<li>
 					<label class="title" for="name">Name</label>
 					<div>
@@ -716,8 +710,13 @@ ul.password{
 				    
 					<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit">
 				</li>
-		</div>	
-			
+			</ul>
+		</form>	
+		
+	</div>
+	</div>
+
+	
 </div>
 
 </body>
